@@ -1,0 +1,12 @@
+{% extends '_base.njk' %}
+
+{% block content %}
+
+    {% block designHeader %}
+        <div class="header">
+            <h1>{% block designHeaderTitle %}{% endblock %}</h1>
+            <p>{% block designHeaderText %}{% endblock %}</p>
+        </div>
+    {% endblock %}
+
+{% endblock %}
